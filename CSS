@@ -1,0 +1,91 @@
+:root {
+  --tribute-gradient: linear-gradient(#146eff, #14ebff, #14ff43);
+}
+  body {
+  background: var(--tribute-gradient);
+  text-align: center;
+  min-width:300px;
+  max-width: 1920px;
+}
+#main {
+  display: flex;
+  box-shadow: 2px 2px 5px;
+  border-radius: 15px;
+  margin: 4% auto 4% auto;
+  border: 1px solid black;
+  width: 70%;
+  height: relative;  
+  flex-direction: column;
+  background: white;
+  font-family: 'Raleway', sans-serif;
+  }
+#intro-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#title {
+  align-self: center;
+  border-bottom: solid;
+  
+}
+#description {
+  align-self: center;
+ }
+#img-div {
+  align-self: center;
+}
+#image {
+  border-width: 10px;
+  border-style: solid;
+  border-radius: 50%;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  height: auto;
+  display: block;
+  
+  
+}
+#img-caption {
+  align-self: center;
+}
+#tribute-container {
+  display: flex;
+  flex-flow: row wrap;
+  align-self: space-evenly;
+  justify-content: space-evenly;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 60px;
+  border-top: 1px solid black;
+}
+#tribute-info {
+  flex-basis: auto;
+  width: 40%;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+#tribute-info2 {
+  flex-basis: 40%;
+  width: 40%;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+#conc-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  background: #efefef;
+  align-self: space-around;
+  padding: 30px;
+  }
+#quote {
+  align-self: center;
+  font-family: 'Charm', cursive;
+  }
+#tribute-link {
+  align-self: center;
+  margin-top: 10px;
+}
