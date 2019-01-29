@@ -1,19 +1,18 @@
+
 :root {
   --tribute-gradient: linear-gradient(#146eff, #14ebff, #14ff43);
 }
   body {
   background: var(--tribute-gradient);
   text-align: center;
-  min-width:300px;
   max-width: 1920px;
 }
 #main {
   display: flex;
   box-shadow: 2px 2px 5px;
-  border-radius: 15px;
   margin: 4% auto 4% auto;
   border: 1px solid black;
-  width: 70%;
+  width: 60%;
   height: relative;  
   flex-direction: column;
   background: white;
@@ -25,13 +24,9 @@
   justify-content: center;
 }
 #title {
-  align-self: center;
   border-bottom: solid;
-  
-}
-#description {
-  align-self: center;
- }
+  }
+ 
 #img-div {
   align-self: center;
 }
@@ -40,11 +35,13 @@
   border-style: solid;
   border-radius: 50%;
   max-width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  width: auto;
   height: auto;
   display: block;
+}
+@media (max-width: 900px){
+  #image {
+    width: 90%;
+  }
 }
 #img-caption {
   align-self: center;
@@ -54,10 +51,10 @@
   flex-flow: row wrap;
   align-self: space-evenly;
   justify-content: space-evenly;
-  margin-left: 200px;
-  margin-right: 200px;
+
   margin-top: 60px;
   border-top: 1px solid black;
+  width: 100%;
 }
 #tribute-info {
   flex-basis: auto;
